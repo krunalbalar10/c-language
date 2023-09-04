@@ -3,8 +3,8 @@
 void main()
 {
     int numb = 1, numb1 = 1;
-
-
+    
+    
     while(numb<=3000)
     {
         printf("%d ,",numb);
