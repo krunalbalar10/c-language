@@ -7,7 +7,7 @@ void main()
 
     answer= number1 % 2;
 
-    if(number1==00)
+    if(number1==0)
     {
         printf("It is zero\n\n");
     }
