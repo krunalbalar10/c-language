@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int base[5], height[5], i;
+    int base[5], height[5], i,j;
     float area[5];
 
     for (i = 0; i <= 4; i++)
@@ -15,9 +15,14 @@ void main()
 
     printf("\n\n");
 
-    for (i = 0; i <= 4; i++);
+    for(i=0;i<=4;i++)
+
     {
+
         area[i] = (base[i] * height[i]) / 2;
-        printf("Area of Traingle %d = %.2f", i+1 , area[i]);
+        printf("Area of Traingle %d= %f\n",i+1, area[i]);
+        
     }
+        
+
 }
